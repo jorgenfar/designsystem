@@ -70,7 +70,7 @@ export interface InputGroupProps extends React.HTMLAttributes<HTMLDivElement> {
     description?: string;
     label?: string | Label;
     onTooltipToggle?: (e: React.MouseEvent | undefined) => void;
-    tooltip?: boolean | string | Tooltip;
+    tooltip?: boolean | string | React.ReactNode;
 }
 
 export interface TooltipProps extends React.HTMLAttributes<HTMLSpanElement> {
